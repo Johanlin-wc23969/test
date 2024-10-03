@@ -12,7 +12,7 @@
  	fmt.Println(msg)
  }
  func main() {
- 	conn, _ := net.Dial("tcp", "127.0.0.1:8030")
+ 	conn, _ := net.Dial("tcp", "54.225.9.5:8030")
  	stdin := bufio.NewReader(os.Stdin)
  	for {
  		//read input from terminal and send msg to server
